@@ -2,6 +2,28 @@
 
 [Python Ep 01: Manejo básico de Jupyter Lab y Colab](https://jdvelasq.github.io/courses/modulos/python/01%20uso%20de%20jupyterlab%20y%20colab/_index.html#prog-en-python-ep-01-jupyterlab-y-colab)
 
+## Tabla de contenidos
+
+- [Ep 01: Manejo básico de Jupyter Lab y Colab](#ep-01-manejo-básico-de-jupyter-lab-y-colab)
+  - [Tabla de contenidos](#tabla-de-contenidos)
+  - [Uso de básico de Google Colaboratory](#uso-de-básico-de-google-colaboratory)
+  - [Creación y ejecución de programas de Python](#creación-y-ejecución-de-programas-de-python)
+  - [Uso de `%%bash` y `%%writefile`](#uso-de-bash-y-writefile)
+    - [`%%bash`](#bash)
+    - [`%%writefile`](#writefile)
+  - [Lenguaje Markdown](#lenguaje-markdown)
+    - [Resumen](#resumen)
+    - [Citas](#citas)
+    - [Énfasis](#énfasis)
+    - [Numeración](#numeración)
+    - [Vínculos](#vínculos)
+    - [Imágenes](#imágenes)
+    - [Código](#código)
+    - [Expresiones Matemáticas](#expresiones-matemáticas)
+    - [Tablas](#tablas)
+  - [HTML para notebooks](#html-para-notebooks)
+    - [Anotaciones](#anotaciones)
+
 ## Uso de básico de Google Colaboratory
 
 Para correr comandos de terminal en Google Colab se puede hacer así:
