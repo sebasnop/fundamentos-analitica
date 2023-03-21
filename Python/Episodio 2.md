@@ -7,7 +7,11 @@
   - [Uso de Python como una calculadora](#uso-de-python-como-una-calculadora)
     - [Comentarios](#comentarios)
     - [Números](#números)
-    - [Operaciones](#operaciones)
+
+&nbsp;
+
+---
+&nbsp;
 
 ## Uso de Python como una calculadora
 
@@ -77,7 +81,3 @@ La salida es la siguiente
 complex
 <class 'complex'>
 ```
-
-### Operaciones
-
-

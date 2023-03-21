@@ -7,8 +7,8 @@ The course is divided into the following parts:
 1. [Python](Python/)
    1. [Basic handling of Jupyter Lab and Colab](Python/Episodio%201.md)
    2. [An informal introduction to Python](Python/Episodio%202.md)
-   3. Flow control tools
-   4. Data structures
+   3. [Flow control tools](Python/Episodio%203.md)
+   4. [Data structures](Python/Episodio%204.md)
    5. Input and Output
    6. Errors and Exceptions
    7. Standart library

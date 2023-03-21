@@ -24,6 +24,11 @@
   - [HTML para notebooks](#html-para-notebooks)
     - [Anotaciones](#anotaciones)
 
+&nbsp;
+
+---
+&nbsp;
+
 ## Uso de básico de Google Colaboratory
 
 Para correr comandos de terminal en Google Colab se puede hacer así:
