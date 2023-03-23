@@ -82,7 +82,7 @@ for n in range(1, 10):
         break
 ```
 
-```bash
+```console
 4
 5
 6
@@ -99,7 +99,7 @@ for index in range(10):
         print(index)
 ```
 
-```bash
+```console
 0
 1
 2
@@ -166,7 +166,7 @@ def suma(a: float, b: float) -> float:
 print(suma.__doc__)
 ```
 
-```bash
+```console
 Suma dos números reales ingresados.
 ```
 
@@ -178,7 +178,7 @@ def suma(a: float, b: float) -> float:
 help(suma)
 ```
 
-```bash
+```console
 Help on function suma in module __main__:     
 
 suma(a: float, b: float) -> float
@@ -201,7 +201,7 @@ my_function(int_var)
 print("outside:", int_var)
 ```
 
-```bash
+```console
 inside: 3
 outside: 5
 ```
@@ -222,7 +222,7 @@ my_function(3)
 print("outside:", int_var)
 ```
 
-```bash
+```console
 inside: 3
 outside: 5
 ```
@@ -244,7 +244,7 @@ my_function(3)
 print("outside:", int_var)
 ```
 
-```bash
+```console
 inside: 3
 outside: 3
 ```
@@ -268,7 +268,7 @@ def outer():
 outer()
 ```
 
-```bash
+```console
 2
 1
 ```
@@ -289,7 +289,7 @@ def outer():
 outer()
 ```
 
-```bash
+```console
 2
 2
 ```
@@ -319,7 +319,7 @@ a = 3
 a_plus_b()
 ```
 
-```bash
+```console
 3
 5
 ```
@@ -362,7 +362,7 @@ print(f(2))
 print(f(3))
 ```
 
-```bash
+```console
 [1]
 [1, 2]
 [1, 2, 3]
@@ -383,7 +383,7 @@ print(f(2))
 print(f(3))
 ```
 
-```bash
+```console
 [1]
 [1]
 [3]
@@ -408,7 +408,7 @@ my_function(second_arg=2, first_arg=1)
 
 Salida igual para ambas llamadas:
 
-```bash
+```console
  first_arg: 1
 second_arg: 2
       args: ()
@@ -421,7 +421,7 @@ Llamada con argumentos extra sin nombre:
 my_function(1, 2, 3, 4)
 ```
 
-```bash
+```console
  first_arg: 1
 second_arg: 2
       args: (3, 4)
@@ -456,7 +456,7 @@ args = {
 my_function(**args)
 ```
 
-```bash
+```console
 6
 ```
 
@@ -501,7 +501,7 @@ def incr(x):
 incr(1)
 ```
 
-```bash
+```console
 2
 ```
 
@@ -514,7 +514,7 @@ incr_ = lambda x: x + 1
 incr_(1)
 ```
 
-```bash
+```console
 2
 ```
 
@@ -524,7 +524,7 @@ Las funciones lambda se puede aplicar directamente:
 (lambda x: x + 1)(2)
 ```
 
-```bash
+```console
 3
 ```
 
@@ -538,6 +538,6 @@ f = make_incrementor(42)
 f(1)
 ```
 
-```bash
+```console
 43
 ```

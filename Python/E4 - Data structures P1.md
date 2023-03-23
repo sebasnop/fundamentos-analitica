@@ -1,6 +1,6 @@
-# Ep 04: Python: Estructuras de datos
+# Ep 04: Python: Estructuras de datos (Parte 1)
 
-[Python Ep 04: Python: Estructuras de datos (Parte 1)](https://jdvelasq.github.io/courses/modulos/python/04%20estructuras%20de%20datos%201/_index.html#prog-en-python-ep-04-estructuras-de-datos-1)
+[Ep 04: Python: Estructuras de datos (Parte 1)](https://jdvelasq.github.io/courses/modulos/python/04%20estructuras%20de%20datos%201/_index.html#prog-en-python-ep-04-estructuras-de-datos-1)
 
 &nbsp;
 
@@ -9,24 +9,82 @@
 
 ## Tabla de contenidos
 
-- [Ep 04: Python: Estructuras de datos](#ep-04-python-estructuras-de-datos)
+- [Ep 04: Python: Estructuras de datos (Parte 1)](#ep-04-python-estructuras-de-datos-parte-1)
   - [Tabla de contenidos](#tabla-de-contenidos)
-  - [Desempaquetado de listas](#desempaquetado-de-listas)
-  - [Reemplazo de elementos en listas](#reemplazo-de-elementos-en-listas)
-  - [Borrado de elementos en listas usando `del`](#borrado-de-elementos-en-listas-usando-del)
-  - [Principales métodos de las listas](#principales-métodos-de-las-listas)
-  - [Efectos colaterales en listas y método copy()](#efectos-colaterales-en-listas-y-método-copy)
-  - [Funciones `filter()`, `map()` y `reduce()`](#funciones-filter-map-y-reduce)
-    - [Filter](#filter)
-    - [Map](#map)
-    - [Reduce](#reduce)
+  - [Estructuras de datos incorporadas de Python](#estructuras-de-datos-incorporadas-de-python)
+    - [Imagen de resumen](#imagen-de-resumen)
+  - [Listas](#listas)
+    - [Desempaquetado](#desempaquetado)
+    - [Básicos](#básicos)
+    - [Reemplazo de elementos en listas](#reemplazo-de-elementos-en-listas)
+    - [Borrado de elementos en listas usando `del`](#borrado-de-elementos-en-listas-usando-del)
+    - [Principales métodos](#principales-métodos)
+    - [Efectos colaterales y método copy()](#efectos-colaterales-y-método-copy)
+    - [Funciones `filter()`, `map()` y `reduce()`](#funciones-filter-map-y-reduce)
+      - [Filter](#filter)
+      - [Map](#map)
+      - [Reduce](#reduce)
+  - [Parte 2](#parte-2)
 
 &nbsp;
 
 ---
 &nbsp;
 
-## Desempaquetado de listas
+## Estructuras de datos incorporadas de Python
+
+- `List`
+  
+  Colección ordenada de datos.
+
+  **Mutable**.
+
+  ```python
+  lista = [1, 2,  3, "GFG", 2.3]
+  ```
+  
+- `Dictionary`
+  
+  Colección no ordenada de datos mediante pares de `key`: `value`.
+
+  **Mutable**.
+
+  ```python
+  diccionario = {'Name': 'Geeks', 1: [1, 2, 3, 4]}
+  ```
+  
+- `Tuple`
+
+  Colección de datos ordenada. Similar a las listas, pero las tuplas son inmutables.
+  
+  **Inmutable**: Los elementos de la tupla no se pueden agregar ni eliminar una vez creados.
+
+  ```python
+  tupla = ('Geeks', 'For')
+  ```
+
+- `Set`
+
+  Colección de datos no ordenada que no permite elementos duplicados.
+
+  **Mutable**.
+
+  ```python
+  conjunto = set([1, 2, 'Geeks', 4, 'For', 6, 'Geeks'])
+  ```
+
+### Imagen de resumen
+
+![Immutable vs Mutable in Python](https://files.realpython.com/media/Mutable-and-Immutable-Data-Types-in-Python_Watermarked.2566c67a719d.jpg "Immutable vs Mutable in Python")
+
+&nbsp;
+
+---
+&nbsp;
+
+## Listas
+
+### Desempaquetado
 
 Hay maneras para extraer información de listas por su posición:
 
@@ -45,7 +103,28 @@ first, *middle, last = [1, 2, 3, 4]
 ---
 &nbsp;
 
-## Reemplazo de elementos en listas
+### Básicos
+
+Pertenencia o no pertenencia:
+
+```python
+lista = [1, 2, 3, 4]
+
+print(1 in lista) # True
+```
+
+Longitud:
+
+```python
+print(len(lista)) # 4
+```
+
+&nbsp;
+
+---
+&nbsp;
+
+### Reemplazo de elementos en listas
 
 Se puede reemplazar un elemento con su índice:
 
@@ -56,7 +135,7 @@ cubes_list[3] = 64
 cubes_list
 ```
 
-```bash
+```console
 [1, 8, 27, 64, 125]
 ```
 
@@ -72,7 +151,7 @@ letters_list[2:5] = ["C", "D", "E"]
 letters_list
 ```
 
-```bash
+```console
 ["a", "b", "C", "D", "E", "f", "g"]
 ```
 
@@ -82,7 +161,7 @@ letters_list[2:5] = []
 letters_list
 ```
 
-```bash
+```console
 ["a", "b", "f", "g"]
 ```
 
@@ -97,7 +176,7 @@ letters_list[0:7:2] = ["A", "C", "E", "G"]
 letters_list
 ```
 
-```bash
+```console
 ['A', 'b', 'C', 'd', 'E', 'f', 'G']
 ```
 
@@ -106,7 +185,7 @@ letters_list
 ---
 &nbsp;
 
-## Borrado de elementos en listas usando `del`
+### Borrado de elementos en listas usando `del`
 
 Borrar un elemento usando su índice:
 
@@ -117,7 +196,7 @@ del integers_list[0]
 integers_list
 ```
 
-```bash
+```console
 [1, 2, 3, 4, 5, 6, 7, 8]
 ```
 
@@ -128,7 +207,7 @@ del integers_list[2:4]
 integers_list
 ```
 
-```bash
+```console
 [1, 2, 5, 6, 7, 8]
 ```
 
@@ -139,7 +218,7 @@ del integers_list[:]
 integers_list
 ```
 
-```bash
+```console
 []
 ```
 
@@ -154,7 +233,7 @@ del integers_list
 ---
 &nbsp;
 
-## Principales métodos de las listas
+### Principales métodos
 
 - `Append`: Agregar elemento.
   
@@ -176,7 +255,7 @@ del integers_list
   Counter(list_c)
   ```
 
-  ```bash
+  ```console
   Counter({'a': 1, 'b': 2, 'c': 3, 'd': 4})
   ```
 
@@ -191,7 +270,7 @@ del integers_list
   letters_list
   ```
 
-  ```bash
+  ```console
   ['g', 'f', 'e', 'd', 'c', 'b', 'a']
   ```
   
@@ -211,7 +290,7 @@ del integers_list
   tuples_list
   ```
 
-  ```bash
+  ```console
   [(12, 'd'), (10, 'b'), (9, 'c'), (8, 'a')]
   ```
 
@@ -222,7 +301,7 @@ del integers_list
   sorted(tuples_list, key=itemgetter(1), reverse=False)
   ```
 
-  ```bash
+  ```console
   [(8, 'a'), (10, 'b'), (9, 'c'), (12, 'd')]
   ```
 
@@ -231,7 +310,7 @@ del integers_list
 ---
 &nbsp;
 
-## Efectos colaterales en listas y método copy()
+### Efectos colaterales y método copy()
 
 Al copiar una lista así:
 
@@ -265,9 +344,9 @@ list_b = list(list_a)
 ---
 &nbsp;
 
-## Funciones `filter()`, `map()` y `reduce()`
+### Funciones `filter()`, `map()` y `reduce()`
 
-### Filter
+#### Filter
 
 Retorna los elementos para loscuales el condicional da verdadero.
 
@@ -276,11 +355,11 @@ list_a = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 list(filter(lambda element: element > 4, list_a))
 ```
 
-```bash
+```console
 [5, 6, 7, 8, 9]
 ```
 
-### Map
+#### Map
 
 Aplica una función a cada elemento de la lista
 
@@ -291,11 +370,11 @@ list_a = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 list(map(lambda element: element + 10, list_a))
 ```
 
-```bash
+```console
 [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
 ```
 
-### Reduce
+#### Reduce
 
 Se usa para aplicar una función particular pasada como parámetro a todos los elementos de la lista mencionados en la secuencia pasada.
 
@@ -313,6 +392,15 @@ my_list = [1, 2, 3, 4, 5, 6]
 reduce(lambda item_1, item_2: item_1 + item_2, my_list)
 ```
 
-```bash
+```console
 21
 ```
+
+&nbsp;
+
+---
+&nbsp;
+
+## Parte 2
+
+[Python: Estructuras de datos (Parte 2)](Episodio%205.md)

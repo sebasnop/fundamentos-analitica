@@ -60,27 +60,27 @@ pip install youtube_dl
 
 Para **ejecutar Python** desde la **terminal** se suele usar:
 
-```bash
+```console
 python3
 ```
 
-```bash
+```console
 ipython
 ```
 
 Para **ejecutar Python** desde **Git Bash** se pueden ejecutar los siguientes comandos:
 
-```bash
+```console
 winpty python
 ```
 
-```bash
+```console
 python -i
 ```
 
 Para **ejecutar un archivo** en **Git Bash** desde el directorio en donde está ubicado se usa el siguiente comando:
 
-```bash
+```console
 python file.py
 ```
 

@@ -1,12 +1,11 @@
-# Python Ep 02: Una introducción informal a Python
+contenidos# Python Ep 02: Una introducción informal a Python
 
 ## Tabla de contenidos
 
-- [Python Ep 02: Una introducción informal a Python](#python-ep-02-una-introducción-informal-a-python)
-  - [Tabla de contenidos](#tabla-de-contenidos)
-  - [Uso de Python como una calculadora](#uso-de-python-como-una-calculadora)
-    - [Comentarios](#comentarios)
-    - [Números](#números)
+- [Tabla de contenidos](#tabla-de-contenidos)
+- [Uso de Python como una calculadora](#uso-de-python-como-una-calculadora)
+  - [Comentarios](#comentarios)
+  - [Números](#números)
 
 &nbsp;
 
