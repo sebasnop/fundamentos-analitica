@@ -11,10 +11,10 @@ The course is divided into the following parts:
    4. [Data structures - Part 1](Python/E4%20-%20Data%20structures%20P1.md)
    5. [Data structures - Part 2](Python/E5%20-%20Data%20structures%20P2.md)
    6. [Input and Output](Python/E6%20-%20Input%20and%20Output)
-   7. Errors and Exceptions
-   8. Standart library
-   9. Data Analytics examples
-   10. **LAB** - Basic programming in Python
+   7. [Errors and Exceptions](Python/E7%20-%20Errors%20and%20Exceptions.md)
+   8. [Standart library](Python/E8%20-%20Standart%20Library.md)
+   9. [Data Analytics examples](Python/E9.ipynb)
+   10. [**LAB** - Basic programming in Python](Python/lab---python-basico-sebasnop/)
 2. Data Analytics
    1. Pandas
    2. **LAB** - Data manipulating with Pandas
