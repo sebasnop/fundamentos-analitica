@@ -14,7 +14,7 @@ The course is divided into the following parts:
    7. [Errors and Exceptions](Python/E7%20-%20Errors%20and%20Exceptions.md)
    8. [Standart library](Python/E8%20-%20Standart%20Library.md)
    9. [Data Analytics examples](Python/E9.ipynb)
-   10. [**LAB** - Basic programming in Python](Python/lab---python-basico-sebasnop/)
+   10. [**LAB** - Basic programming in Python](https://github.com/classroom-fundamentos-de-analitica/lab---python-basico-sebasnop/tree/b1df29794176a7fb82f67666e3a97c7b13c3127c)
 2. Data Analytics
    1. Pandas
    2. **LAB** - Data manipulating with Pandas
