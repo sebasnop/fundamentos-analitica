@@ -1,12 +1,5 @@
 # Ep 07: Errores y Excepciones
 
-[Ep 08: Errores y Excepciones](https://jdvelasq.github.io/courses/modulos/python/08%20errores%20y%20excepciones/_index.html#prog-en-python-ep-08-errores-y-excepciones)
-
-&nbsp;
-
----
-&nbsp;
-
 ## Tabla de contenidos
 
 - [Ep 07: Errores y Excepciones](#ep-07-errores-y-excepciones)

@@ -1,12 +1,5 @@
 # Ep 04: Python: Estructuras de datos (Parte 1)
 
-[Ep 04: Python: Estructuras de datos (Parte 1)](https://jdvelasq.github.io/courses/modulos/python/04%20estructuras%20de%20datos%201/_index.html#prog-en-python-ep-04-estructuras-de-datos-1)
-
-&nbsp;
-
----
-&nbsp;
-
 ## Tabla de contenidos
 
 - [Ep 04: Python: Estructuras de datos (Parte 1)](#ep-04-python-estructuras-de-datos-parte-1)
@@ -403,4 +396,4 @@ reduce(lambda item_1, item_2: item_1 + item_2, my_list)
 
 ## Parte 2
 
-[Python: Estructuras de datos (Parte 2)](Episodio%205.md)
+[Python: Estructuras de datos (Parte 2)](E5%20-%20Data%20structures%20P2.md)

@@ -1,7 +1,5 @@
 # Ep 01: Manejo básico de Jupyter Lab y Colab
 
-[Python Ep 01: Manejo básico de Jupyter Lab y Colab](https://jdvelasq.github.io/courses/modulos/python/01%20uso%20de%20jupyterlab%20y%20colab/_index.html#prog-en-python-ep-01-jupyterlab-y-colab)
-
 ## Tabla de contenidos
 
 - [Ep 01: Manejo básico de Jupyter Lab y Colab](#ep-01-manejo-básico-de-jupyter-lab-y-colab)

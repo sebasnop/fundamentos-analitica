@@ -1,7 +1,5 @@
 # Ep 03: Herramientas de control de flujo
 
-[Python Ep 01: Manejo básico de Jupyter Lab y Colab](https://jdvelasq.github.io/courses/modulos/python/03%20herramientas%20de%20control%20de%20flujo/_index.html#prog-en-python-ep-03-herramientas-de-control-de-flujo)
-
 ## Tabla de contenidos
 
 - [Ep 03: Herramientas de control de flujo](#ep-03-herramientas-de-control-de-flujo)
@@ -22,6 +20,7 @@
     - [Argumentos posicionales, valores por defecto y número variable de argumentos](#argumentos-posicionales-valores-por-defecto-y-número-variable-de-argumentos)
     - [Funciones complejas](#funciones-complejas)
   - [Funciones anónimas](#funciones-anónimas)
+  - [Archivo de práctica](#archivo-de-práctica)
 
 &nbsp;
 
@@ -541,3 +540,12 @@ f(1)
 ```console
 43
 ```
+
+&nbsp;
+
+---
+&nbsp;
+
+## Archivo de práctica
+
+[E3 - Flow control practice](E3%20-%20Flow%20control%20practice.ipynb)

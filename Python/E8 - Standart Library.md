@@ -1,12 +1,5 @@
 # Ep 8: Librería Estándar
 
-[Ep 10: Librería Estandar 1](https://jdvelasq.github.io/courses/modulos/python/10%20libreria%20estandar%201/_index.html#prog-en-python-ep-10-libraria-estandar-parte-1)
-
-&nbsp;
-
----
-&nbsp;
-
 ## Tabla de contenidos
 
 - [Ep 8: Librería Estándar](#ep-8-librería-estándar)

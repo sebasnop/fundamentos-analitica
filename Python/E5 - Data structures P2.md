@@ -1,12 +1,5 @@
 # Ep 05: Python: Estructuras de datos (Parte 2)
 
-[Ep 05: Python: Estructuras de datos (Parte 2)](https://jdvelasq.github.io/courses/modulos/python/05%20estructuras%20de%20datos%202/_index.html#prog-en-python-ep-05-estructuras-de-datos-2)
-
-&nbsp;
-
----
-&nbsp;
-
 ## Tabla de contenidos
 
 - [Ep 05: Python: Estructuras de datos (Parte 2)](#ep-05-python-estructuras-de-datos-parte-2)

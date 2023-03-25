@@ -1,12 +1,5 @@
 # Ep 06: Entrada y Salida
 
-[Python Ep 07: Entrada y Salida](https://jdvelasq.github.io/courses/modulos/python/07%20entrada%20y%20salida/_index.html#prog-en-python-ep-07-entrada-y-salida)
-
-&nbsp;
-
----
-&nbsp;
-
 ## Tabla de contenidos
 
 - [Ep 06: Entrada y Salida](#ep-06-entrada-y-salida)

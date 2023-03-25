@@ -1,11 +1,13 @@
-contenidos# Python Ep 02: Una introducción informal a Python
+# Python Ep 02: Una introducción informal a Python
 
 ## Tabla de contenidos
 
-- [Tabla de contenidos](#tabla-de-contenidos)
-- [Uso de Python como una calculadora](#uso-de-python-como-una-calculadora)
-  - [Comentarios](#comentarios)
-  - [Números](#números)
+- [Python Ep 02: Una introducción informal a Python](#python-ep-02-una-introducción-informal-a-python)
+  - [Tabla de contenidos](#tabla-de-contenidos)
+  - [Uso de Python como una calculadora](#uso-de-python-como-una-calculadora)
+    - [Comentarios](#comentarios)
+    - [Números](#números)
+  - [Archivo de práctica](#archivo-de-práctica)
 
 &nbsp;
 
@@ -80,3 +82,12 @@ La salida es la siguiente
 complex
 <class 'complex'>
 ```
+
+&nbsp;
+
+---
+&nbsp;
+
+## Archivo de práctica
+
+[E2 - Python Introduction practice](E2%20-%20Python%20Introduction%20practice.py)
