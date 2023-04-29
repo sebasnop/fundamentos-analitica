@@ -4,3 +4,6 @@
 [submodule "da/lab---pandas-sebasnop"]
 	path = da/lab---pandas-sebasnop
 	url = git@github.com:classroom-fundamentos-de-analitica/lab---pandas-sebasnop.git
+[submodule "da/lab---sqlite3-sebasnop"]
+	path = da/lab---sqlite3-sebasnop
+	url = git@github.com:classroom-fundamentos-de-analitica/lab---sqlite3-sebasnop.git
