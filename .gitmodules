@@ -1,3 +1,6 @@
 [submodule "Python/lab---python-basico-sebasnop"]
 	path = Python/lab---python-basico-sebasnop
 	url = git@github.com:classroom-fundamentos-de-analitica/lab---python-basico-sebasnop.git
+[submodule "da/lab---pandas-sebasnop"]
+	path = da/lab---pandas-sebasnop
+	url = git@github.com:classroom-fundamentos-de-analitica/lab---pandas-sebasnop.git
