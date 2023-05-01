@@ -7,3 +7,6 @@
 [submodule "da/lab---sqlite3-sebasnop"]
 	path = da/lab---sqlite3-sebasnop
 	url = git@github.com:classroom-fundamentos-de-analitica/lab---sqlite3-sebasnop.git
+[submodule "DA/ingestion/data-ingestion---clusters-report-sebasnop"]
+	path = DA/ingestion/data-ingestion---clusters-report-sebasnop
+	url = git@github.com:classroom-fundamentos-de-analitica/data-ingestion---clusters-report-sebasnop.git
