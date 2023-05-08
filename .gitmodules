@@ -1,12 +1,15 @@
 [submodule "Python/lab---python-basico-sebasnop"]
 	path = Python/lab---python-basico-sebasnop
 	url = git@github.com:classroom-fundamentos-de-analitica/lab---python-basico-sebasnop.git
-[submodule "da/lab---pandas-sebasnop"]
-	path = da/lab---pandas-sebasnop
+[submodule "DA/1_pandas/lab---pandas-sebasnop"]
+	path = DA/1_pandas/lab---pandas-sebasnop
 	url = git@github.com:classroom-fundamentos-de-analitica/lab---pandas-sebasnop.git
-[submodule "da/lab---sqlite3-sebasnop"]
-	path = da/lab---sqlite3-sebasnop
+[submodule "DA/2_sqlite3/lab---sqlite3-sebasnop"]
+	path = DA/2_sqlite3/lab---sqlite3-sebasnop
 	url = git@github.com:classroom-fundamentos-de-analitica/lab---sqlite3-sebasnop.git
-[submodule "DA/ingestion/data-ingestion---clusters-report-sebasnop"]
-	path = DA/ingestion/data-ingestion---clusters-report-sebasnop
+[submodule "DA/4_ingestion/data-ingestion---clusters-report-sebasnop"]
+	path = DA/4_ingestion/data-ingestion---clusters-report-sebasnop
 	url = git@github.com:classroom-fundamentos-de-analitica/data-ingestion---clusters-report-sebasnop.git
+[submodule "DA/limpieza/lab---data-cleaning-solicitudes-credito-sebasnop"]
+	path = DA/limpieza/lab---data-cleaning-solicitudes-credito-sebasnop
+	url = git@github.com:classroom-fundamentos-de-analitica/lab---data-cleaning-solicitudes-credito-sebasnop.git
