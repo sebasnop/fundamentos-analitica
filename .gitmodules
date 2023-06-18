@@ -13,3 +13,6 @@
 [submodule "DA/5_limpieza/lab---data-cleaning-solicitudes-credito-sebasnop"]
 	path = DA/5_limpieza/lab---data-cleaning-solicitudes-credito-sebasnop
 	url = git@github.com:classroom-fundamentos-de-analitica/lab---data-cleaning-solicitudes-credito-sebasnop.git
+[submodule "ML/02_estadistica_inferencial/analisis-de-sentimientos-amazon-sebasnop"]
+	path = ML/02_estadistica_inferencial/analisis-de-sentimientos-amazon-sebasnop
+	url = git@github.com:classroom-fundamentos-de-analitica/analisis-de-sentimientos-amazon-sebasnop.git
