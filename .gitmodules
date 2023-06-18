@@ -16,3 +16,12 @@
 [submodule "ML/02_estadistica_inferencial/analisis-de-sentimientos-amazon-sebasnop"]
 	path = ML/02_estadistica_inferencial/analisis-de-sentimientos-amazon-sebasnop
 	url = git@github.com:classroom-fundamentos-de-analitica/analisis-de-sentimientos-amazon-sebasnop.git
+[submodule "ML/24_regresores_clasicos/lab---regresion-lineal-univariada-sebasnop"]
+	path = ML/24_regresores_clasicos/lab---regresion-lineal-univariada-sebasnop
+	url = git@github.com:classroom-fundamentos-de-analitica/lab---regresion-lineal-univariada-sebasnop.git
+[submodule "ML/24_regresores_clasicos/regresion-lineal-multiple-insurance-sebasnop"]
+	path = ML/24_regresores_clasicos/regresion-lineal-multiple-insurance-sebasnop
+	url = git@github.com:classroom-fundamentos-de-analitica/regresion-lineal-multiple-insurance-sebasnop.git
+[submodule "ML/25_clasificadores_clasicos/regresion-logistica-mushrooms-sebasnop"]
+	path = ML/25_clasificadores_clasicos/regresion-logistica-mushrooms-sebasnop
+	url = git@github.com:classroom-fundamentos-de-analitica/regresion-logistica-mushrooms-sebasnop.git
